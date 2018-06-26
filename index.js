@@ -7,6 +7,7 @@ function takeANumber(katzDeliLine){
   katzDeliLine.push(ticketCounter)
   return "Welcom! you're ticket number" + ticketCounter 
   ticketCounter = ticketCounter+1
+  
 }
 
 
