@@ -3,11 +3,20 @@ var katzDeli = [];
 
 
 function takeANumber(katzDeliLine){
-  
+  var ticketCounter = 1
+  katzDeliLine.push(ticketCounter)
+  return "Welcom! you're ticket number" + ticketCounter 
+  ticketCounter+1
 }
 
-// takeANumber(katzDeliLine)
 
+// takeANumber(katzDeli) => "Welcome! you're ticket number #1" [1]
+// takeANumber(katzDeli) => "Welcome! You're ticket number #2" [1, 2]
+
+// nowServing(katzDeli) => "Currently serving: #1" [2]
+// nowServing(katzDeli) => "Currently serving: #2" []
+
+// takeANumber(katzDeli) => "Welcome! You're ticket number #3" [3]
 
 
 function takeANumber(katzDeliLine, name) {
